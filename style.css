@@ -1,0 +1,404 @@
+@font-face {
+    font-family: heyfont;
+    src: url(fonts/sunday.ttf);
+}
+
+@font-face {
+    font-family: navfont;
+    src: url(fonts/book.ttf);
+}
+body {
+    margin: 0;
+    padding-top: 50px; /* Adjust the value as needed */
+    font-family: verdana;
+    background-image: url(images/laptop.jpg)
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    background-image: url(images/laptop.jpg);
+    background-attachment: fixed; /* Keep the background fixed */
+    background-size: cover;
+    text-align: center;
+}
+
+#abc {
+    width: 100%;
+    background-size: cover;
+    text-align: center; /* Center-align text */
+}
+
+
+
+nav {
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it take the full width */
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: navfont;
+    z-index: 999; /* Ensure it's above other content */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px; /* Adjust the value as needed */
+    transition: 0.7s all;
+}
+
+nav ul li:hover {
+    background-color: clay;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 50px; /* Adjust the line-height to vertically center the text */
+}
+
+
+.opening {
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.opening img {
+    width: 350px;
+    height: 350px;
+    margin-top: 250px;
+    margin-left: 300px;
+    float: left;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.intro {
+    text-align: center;
+    margin-top: -40px; /* Adjust this margin as needed */
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left position to move the text to the left */
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+
+.intro h1 {
+    font-family: heyfont;
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 780px; /* Reset the margin-left to 0 */
+}
+
+.description {
+    text-align: center;
+    margin-top: -40px; /* Adjust this margin as needed */
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left position to move the text to the left */
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.description h2 {
+    font-family: navfont;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 750px; /* Reset the margin-left to 0 */
+    margin-top: 200px;
+}
+
+.content_title h1 {
+    margin-top: 1100px; /* Adjust the margin-top as needed */
+    margin-left: 500px;
+    font-family: navfont;
+    color: #fff;
+    position: relative; /* Add this line to position it relative to its container */
+    z-index: 3; /* Increase the z-index to place it on top */
+    font-weight: 1000;
+}
+
+.myinfo_description h1 {
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-left: 500px;
+    font-family: navfont;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    line-height: 0.5; /* Adjust the line height as needed */
+    position: relative;
+    z-index: 2;
+}
+
+.aboutme {
+    text-align: center;
+    margin-top: -40px; /* Adjust this margin as needed */
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left position to move the text to the left */
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.aboutme img {
+    width: 350px;
+    height: 350px;
+    margin-top: 2200px;
+    margin-left: 290px;
+    float: left;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.rectangle-container {
+    width: 1900px;
+    height: 1000px;
+    background-color: #848884;
+    position: absolute; 
+    top: 1048px; 
+    left: 0px; 
+}
+
+.portfolio-title h1 {
+    margin-left: 500px;
+    font-family: navfont;
+    color: #fff;
+    position: absolute; /* Position absolutely within its container */
+    top: 2200px; /* Adjust top position as needed to place it below the "About Me" section */
+    left: 350px; /* Adjust left position as needed */
+    z-index: 3; /* Ensure it's above other content */
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.scroll-rectangle {
+    width: 1900px;
+    height: 920px; /* Adjust the height as needed */
+    background-color: #A9A9A9; /* Set the background color of the rectangle */
+    position: relative;
+    z-index: 2; /* Make sure it's above the background image */
+    margin-top: 420px;
+}
+
+.wasd img {
+    width: 470px;
+    height: 250px;
+    margin-top: 700px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.spotify img {
+    width: 470px;
+    height: 250px;
+    margin-top: 700px; /* Adjust the top margin as needed */
+    margin-left: 150px; /* Adjust the left margin as needed */
+    float: left;
+    border-radius: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.youtube img {
+    width: 470px;
+    height: 250px;
+    margin-top: -250px; /* Adjust the top margin as needed to position it vertically */
+    margin-left: 1350px; /* Adjust the left margin as needed to position it horizontally */
+    float: left;
+    border-radius: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+
+.first h1 {
+    text-align: center;
+    position: absolute;
+    top: 2630px;
+    left: 120px; /* Adjust the left position to move the text to the left */
+    transform: translateY(-50%);
+    z-index: 3;
+    font-family: navfont;
+    color: #fff;
+}
+
+.second h1 {
+    text-align: center;
+    position: absolute;
+    top: 2630px;
+    left: 830px; /* Adjust the left position to move the text to the left */
+    transform: translateY(-50%);
+    z-index: 3;
+    font-family: navfont;
+    color: #fff;
+}
+
+.third h1 {
+    text-align: center;
+    position: absolute;
+    top: 2630px;
+    left: 1470px; /* Adjust the left position to move the text to the left */
+    transform: translateY(-50%);
+    z-index: 3;
+    font-family: navfont;
+    color: #fff;
+}
+
+.contact-title h1 {
+    margin-left: 500px;
+    font-family: navfont;
+    color: #fff;
+    position: absolute; /* Position absolutely within its container */
+    top: 3085px; /* Adjust top position as needed to place it below the "About Me" section */
+    left: 300px; /* Adjust left position as needed */
+    z-index: 4; /* Ensure it's above other content */
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.next-rectangle {
+    width: 2200px;
+    height: 500px; /* Adjust the height as needed */
+    background-color: #71797E; /* Set the background color of the rectangle */
+    position: relative;
+    z-index: 1; /* Lower z-index for the rectangle */
+    margin-top: -100px;
+}
+
+.wrapper {
+    position: relative; /* Change to relative positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 250px; /* Adjust the positioning as needed */
+    z-index: 2; /* Raise z-index for the icons wrapper to make it appear above */
+    left: -15px;
+}
+
+.wrapper .icon {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+    z-index: 2; /* Raise z-index for the icons */
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 3; /* Raise z-index for the tooltips */
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
