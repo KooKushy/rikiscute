@@ -7,6 +7,9 @@
     font-family: navfont;
     src: url(fonts/book.ttf);
 }
+
+
+
 body {
     margin: 0;
     padding-top: 50px; /* Adjust the value as needed */
@@ -170,7 +173,7 @@ nav ul li a {
 
 .rectangle-container {
     width: 1900px;
-    height: 1000px;
+    height: 1080px;
     background-color: #848884;
     position: absolute; 
     top: 1048px; 
